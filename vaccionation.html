@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UFT-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="vieport" content="width=device-width, initial-scale=1.0">
+        <title>Vacunation</title>
+      
+      
+      <style>
+            @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+    :root{ 
+        --color-primary: #444cf7;
+        --color-title: rgb(10, 236, 78);
+        --aling-title: left;
+        --padding-conteiner: 50px 0;
+        --width-container: 90%;
+        --max-width-container:1200px;
+        --color-btn: #f9f9fa;
+        --text-btn: #fff; 
+        --padding-btn: 10px 15px; 
+        --height-wave: 18emp;
+    }
+            body {
+            font-family: 'Inter', sans-serif;
+            opacity:10;
+            background-image:radial-gradient(#c7610e);
+            background-size:100px 28px;
+            background-position:0 0,14px 14px;
+        }
+
+    .conteiner{
+        width: var(--width-container);
+        max-width: var(--max-width-container);
+        padding: var(--padding-conteiner);
+        margin:0 auto;
+        overflow: hidden;
+    }
+
+    .hero{
+        height:100vh;
+        min-width: 200px;
+        position: relative;
+        --padding-conteiner:0;    
+    }
+    
+    .hero_conteiner{
+        display: grid;
+        height: 100%;
+        grid-template-columns: 20fr 6fr;
+        place-items: center;
+        gap: 20px;
+    }
+
+    .hero_img{
+        width: 30%;
+        position: absolute;
+        left: 800px;
+    }
+
+    .hero_title{
+        font-size: 400%;
+        color: #0A81EF;
+        
+    }
+    .hero_titledos {
+        font-size: 250%;
+        font-weight: bold;
+        color: #125492 ;
+        
+    }
+    
+    .hero_copy{
+        display: table-cell;      
+        font-size: larger;
+        text-align: center;
+        vertical-align: middle;
+        color: #236BAE;
+    }
+
+    .bloquedos {
+        height: 150px;
+        background-color: #fafafc;
+        display:inline-block;
+        position:relative;
+        left: 120px;
+        width: auto; 
+        border: 1px;
+        margin: 0 20px;
+    }
+
+    .bloque {
+        height: 150px;
+        width: 300px;
+        background-color: #f9f9fa;
+        display:inline-flex;
+        position:relative;
+        left: 150px;
+        box-sizing: border-box;
+    }
+
+    
+
+    .hero_cta{
+        display: inline-block;
+        background: var(--color-btn);
+        color: #0BA3F9;
+        padding: var(--padding-btn);
+        text-align:left;
+        text-decoration: none;
+        cursor: hand;
+        position: relative;
+        left: 500px;
+        width: 150px;     
+    }
+    
+    .hero_cta:focus {
+        outline: none;
+        color: #fff;
+        background: #0A81EF;
+    }
+
+   
+    .main_ins{
+        color: red;
+    }
+    
+
+        </style>
+
+
+    </head>
+    <body>
+        
+        <header class="hero"> 
+
+            <div class="hero_container container">
+                 <div class="hero_texts">
+                    <h1 class="hero_title">Vaccination</h1>
+                    <a href="#" class="hero_cta">Database </a>
+                    <a href="#" class="hero_cta">Education </a>
+                    <a href="#" class="hero_cta">News </a>
+                    <a href="#" class="hero_cta">Regulation </a>
+                    <a href="#" class="hero_cta">Hoax Buster </a>
+                    <br>
+                    <img src="enfermera.jpg" class="hero_img">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                 <div class="bloquedos">
+                    <h2 class="hero_titledos">Fight Virus 
+                        <br>
+                        With Vaccines </h2>
+                  </div>
+                    <br>
+                  <div class="bloque">
+                        <p class="hero_copy">Let`s stop this pandemic by killing the virus with a vaccine,
+                        <br>
+                          dont`t let yourself and your family get infected</p> 
+                  </div>
+                </div>
+                
+            </div>
+        </header>
+<br>
+        <main class="main">
+
+            <section class="ins container">
+                
+                <div class="ins_container"> 
+
+                <img src="Frame.png" class="frame_img">
+                <p class="ins_bestprotection">Best protection</p>
+
+                <img src="Estrella.png" class="Estrella_img">
+                <p class="ins_SelectedVaccines">Selected Vaccines</p>
+               
+                <img src="reloj.png" class="reloj_img">
+                <h2 class="ins_Scheduleyourvaccinations">Schedule your vaccinations</h2>
+
+                <img src="Location.png" class="Location_img">
+                <p class="ins_Location">Location</p>
+                <p class="ins_Location2"> Jakarta Utara </p>
+
+                <img src="calendar.png" class="calendar_img">
+                <p class="ins_Date">Date</p>
+                <p class="ins_Location2"> 08 July 2021 </p>
+
+                <img src="editar.png" class="editar_img">
+                <p class="ins_type">Vaccine Type</p>
+                <p class="ins_Location2"> Moderna </p>
+
+                <a href="#" class="ins_cta">Submit </a>
+                </div>
+
+            </section>
+
+            <section class ="why container">
+
+                <div class="why_should"> 
+                    <figure class="why_picture">  
+                    <img src="ASTRAZENECA.png" class="astrazeneca_img">
+                    <img src="Sinovac.jpg" class="sinovac_img">
+                    <img src="pfizer.png" class="pfizer_img">
+                    <img src="logomoderna.jpg" class="logomoderna_img">
+                </figure>
+
+                    <h2 class="title">Why Should Ivaccine?</h2>
+                    <p class="why_paragra">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta sequi, sit optio libero architecto, beatae, quisquam amet vitae laboriosam eius excepturi quas quidem fuga dolorum dolores similique quasi laudantium saepe?</p>
+
+    
+                    <a href="#" class="ins_cta">Submit </a>
+                </div>
+
+            </section>
+
+<br>
+
+            <section class="preparations_container"> 
+                <div class="preparation_conteiner">
+                    <h2 class="title">Preparations Before Vaccine</h2>
+                    <p> the succes of vaccines is strongly in influenced by the strength of the body`s immune system. therefore, there are several things that can be tried to make the COVID - 19 vaccine work :</p>
+                    <figure class="preparation_picture">  
+                        <img src="Enfermero.jpg" class="enfermero_img">
+                    </figure>
+                </div>
+
+            </section>
+
+
+            <section class="emergy container"> 
+                <div class="emergy_contac">
+                    <h2 class="title">Emergency Contact</h2>
+                    <p> Contact one of the contacts below if you or your family feel unwell and have similar symptoms such as Covid - 19, make sure you also take care of yourself before reporting to us :</p>
+                    <figure class="emergy_picture">  
+                        <img src="CUBREBOCAS.jpg" class="cubrebocas_img">
+                    </figure>
+                
+                    <div class="card1_container"> 
+                        <div class="card1_item"> 
+                             <figure class="card1_img"> 
+                                <img src="Frame (4).png" class="frame4_img">
+                                <h3 class="card_title">Call</h3>
+                                <p>021.123.145.14</p>
+                                <a href="#" class="ins_cta">Call Now </a>
+                             </figure>
+                        </div>
+                    </div>
+
+                
+                
+                <br>
+                <div class="card1_container"> 
+                    <div class="card1_item"> 
+                        <figure class="card1_img"> 
+                <img src="Frame (5).png" class="frame5_img">
+                <h3 class="card_title">Chat</h3>
+                <p>021.123.145.14</p>
+                <a href="#" class="ins_cta">Chat Now </a>
+                        </figure>
+                     </div>
+                 </div>
+              
+                 <br>
+              
+                 <div class="card1_container"> 
+                    <div class="card1_item"> 
+                        <figure class="card1_img"> 
+                <img src="Frame (6).png" class="frame6_img">
+                <h3 class="card_title">Video Call</h3>
+                <p>021.123.145.14</p>
+                <a href="#" class="ins_cta">Video Call Now </a>
+                         </figure>
+                     </div>
+                 </div>
+             
+                 <br>
+
+                <div class="card1_container"> 
+                    <div class="card1_item"> 
+                        <figure class="card1_img"> 
+                <img src="Frame (7).png" class="frame7_img">
+                <h3 class="card_title">Message</h3>
+                <p>021.123.145.14</p>
+                <a href="#" class="ins_cta">Message Now </a>
+                         </figure>
+                     </div>
+                 </div>
+
+            </div>
+            </section>
+
+            <section class="card2_container"> 
+                <div class="conteiner">
+                   
+                    <div class="card2_container"> 
+                        <div class="card2_item"> 
+                            <figure class="card2_img"> 
+                    <h2 class="title">Vaccination</h2>
+                <p class="card_copy">Our goal is to help the world  free from the ongoing pandemic</p>
+                             </figure>
+                        </div>
+                     </div>
+               
+                <div class="card2_container"> 
+                    <div class="card2_item"> 
+                        <figure class="card2_img"> 
+                <p> About </p>
+                <a href="#" class="ins_cta">About us </a>
+                <br>
+                <a href="#" class="ins_cta">Features </a>
+                <br>
+                <a href="#" class="ins_cta">News & Blogs </a>
+                         </figure>
+                      </div>
+               </div>
+               
+                <div class="card2_container"> 
+                    <div class="card2_item"> 
+                        <figure class="card2_img"> 
+                <p> Company </p>
+                <a href="#" class="ins_cta">How We Work </a>
+                <br>
+                <a href="#" class="ins_cta">Capital </a>
+                <br>
+                <a href="#" class="ins_cta">Security </a>
+                        </figure>
+                    </div>
+                </div>
+                
+                <div class="card2_container"> 
+                    <div class="card2_item"> 
+                        <figure class="card2_img"> 
+                <p> Support </p>
+                <a href="#" class="ins_cta">FAQs </a>
+                <br>
+                <a href="#" class="ins_cta">Support Center </a>
+                <br>
+                <a href="#" class="ins_cta">Contac Us </a>
+                      </figure>
+                      </div>
+                 </div>
+
+                <p class="footer_copyright">
+                    @2021 Vacinnation. All rights reserved
+                </p>
+
+
+                </div>
+            </section>
+
+
+        </main>
+        
+       
+  
+    </body>
+</html>
